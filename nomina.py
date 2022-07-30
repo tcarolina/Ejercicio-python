@@ -1,5 +1,4 @@
-
-    import time
+import time
 import contextlib
 import re
 
@@ -42,3 +41,12 @@ def nomina():
     print("[+] Pension: " + str(ps))
     print("[+] Total de retenciones: " + str(total_descuento))
     print("[+] Sueldo Neto: " + str(sueldo_neto))
+
+
+
+
+
+
+if __name__ == '__main__':
+        nomina()
+time.sleep(1)
